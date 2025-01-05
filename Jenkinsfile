@@ -1,7 +1,7 @@
 @Library('jenkins-shared-libraries-@main') _  // Correct syntax
 
 pipeline {
-    agent { label 'slave-2' }
+    agent { label 'slave' }
 
     environment {
         JAVA_HOME = '/usr/lib/jvm/java-17-openjdk-amd64'
